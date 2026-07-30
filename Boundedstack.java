@@ -58,7 +58,7 @@ public class Boundedstack {
         checkRep();
     }
     
-    public Boundedstack(String... name_book){//รับค่าStringกี่ตัวก็ได้
+    public Boundedstack(String... name_book){//รับค่าStringกี่ตัวก็ได้{
     if(name_book == null){
         throw new IllegalArgumentException("book must not contain null");
     }
